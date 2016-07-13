@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">小曾音乐</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    -<string-array name="singer_names">
+
+    <item>陈奕迅</item>
+
+    <item>庄心妍</item>
+
+    <item>周杰伦</item>
+
+    <item>TFBOYS</item>
+
+    <item>Bigbang</item>
+
+    <item>G.E.M.邓紫棋</item>
+
+    <item>张学友</item>
+
+    <item>Beyond</item>
+
+    <item>冷漠</item>
+
+    <item>张杰</item>
+
+</string-array>
+
+
+    -<string-array name="singer_introduce">
+
+    <item>陈奕迅，香港实力派歌手，演员。</item>
+
+    <item>庄心妍，大陆歌手。</item>
+
+    <item>周杰伦，华语音乐人。</item>
+
+    <item>TFBOYS，少年偶像组合。</item>
+
+    <item>Bigbang，韩国著名团队,KPOP界领军人物。</item>
+
+    <item>香港新生代唱作歌手。</item>
+
+    <item>张学友，香港实力派歌手，演员。</item>
+
+    <item>Beyond，香港殿堂级摇滚乐队。</item>
+
+    <item>华语流行乐坛实力派歌手。</item>
+
+    <item>张杰，大陆男歌手。</item>
+
+</string-array>
+</resources>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/my_menu_view_button_recommend"
+        android:layout_width="135px"
+        android:layout_height="60px" />
+
+    <TextView
+        android:id="@+id/my_menu_view_button_list"
+        android:layout_width="135px"
+        android:layout_height="60px"
+        android:layout_alignTop="@id/my_menu_view_button_recommend"
+        android:layout_toRightOf="@id/my_menu_view_button_recommend" />
+
+    <TextView
+        android:id="@+id/my_menu_view_button_singer"
+        android:layout_width="135px"
+        android:layout_height="60px"
+        android:layout_alignTop="@id/my_menu_view_button_list"
+        android:layout_toRightOf="@id/my_menu_view_button_list" />
+
+    <TextView
+        android:id="@+id/my_menu_view_button_music_list"
+        android:layout_width="135px"
+        android:layout_height="60px"
+        android:layout_alignTop="@id/my_menu_view_button_singer"
+        android:layout_toRightOf="@id/my_menu_view_button_singer" />
+
+    <TextView
+        android:id="@+id/my_menu_view_button_class"
+        android:layout_width="136px"
+        android:layout_height="60px"
+        android:layout_alignTop="@id/my_menu_view_button_music_list"
+        android:layout_toRightOf="@id/my_menu_view_button_music_list" />
+
+</RelativeLayout>

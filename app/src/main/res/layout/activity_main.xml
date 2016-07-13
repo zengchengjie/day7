@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.administrator.day7.widget.TitleView
+        android:id="@+id/main_page_title_layout"
+        android:layout_width="720px"
+        android:layout_height="94px"
+        android:background="@drawable/main_page_title_layout_bg">
+
+    </com.example.administrator.day7.widget.TitleView>
+
+    <com.example.administrator.day7.widget.MyMenu
+        android:id="@+id/my_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_page_title_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30px">
+
+    </com.example.administrator.day7.widget.MyMenu>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_menu" />
+
+
+</RelativeLayout>

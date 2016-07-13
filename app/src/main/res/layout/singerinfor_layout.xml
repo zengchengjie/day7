@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="19dp"
+            android:background="@drawable/title_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="让你哭花妆的伤感情歌"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/singer_infor_image"
+        android:layout_width="match_parent"
+        android:layout_height="400px" />
+
+
+    <ListView
+        android:id="@+id/singer_infor_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/singer_infor_image">
+
+
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/player_view_background">
+
+        <ImageView
+            android:id="@+id/song_singer_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/player_view_fail_icon" />
+
+        <LinearLayout
+            android:id="@+id/text_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/song_singer_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/song_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这里是歌曲名" />
+
+            <TextView
+                android:id="@+id/song_singer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/song_name"
+                android:text="这里是歌手名" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/last_song"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/player_view_last_default" />
+
+            <TextView
+                android:id="@+id/play_song"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/player_view_play_default" />
+
+            <TextView
+                android:id="@+id/next_song"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/player_view_next_default" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

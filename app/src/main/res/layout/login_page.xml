@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meituan_login_page_bg" >
+
+    <RelativeLayout
+        android:id="@+id/login_page_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="96px"
+        android:background="@drawable/login_page_title_bg" >
+
+        <TextView
+            android:id="@+id/login_page_back_button"
+            android:layout_width="24px"
+            android:layout_height="44px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/login_page_back_button_bg" />
+
+        <TextView
+            android:id="@+id/login_page_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/login_page_back_button"
+            android:text="登录"
+            android:textColor="@color/meituan_title_words"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/login_page_register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="注册"
+            android:textColor="@color/meituan_title_words"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/login_page_edit_user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="98px"
+        android:layout_below="@id/login_page_title_layout"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_page_edit_bg"
+        android:text="teacher"
+        android:hint="手机/邮箱/用户名"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/login_page_edit_passwd"
+        android:layout_width="fill_parent"
+        android:layout_height="98px"
+        android:text="123456"
+        android:layout_below="@id/login_page_edit_user_name"
+        android:background="@drawable/login_page_edit_bg"
+        android:hint="密码"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/login_page_login_button2"
+        android:layout_width="656px"
+        android:layout_height="92px"
+        android:layout_below="@id/login_page_edit_passwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_page_login_button" />
+
+    <TextView
+        android:id="@+id/login_page_find_passwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/login_page_login_button2"
+        android:layout_below="@id/login_page_login_button2"
+        android:layout_marginTop="10dp"
+        android:text="找回密码"
+        android:textColor="@color/meituan_other_words" />
+
+    <TextView
+        android:id="@+id/login_page_phone_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/login_page_login_button2"
+        android:layout_below="@id/login_page_login_button2"
+        android:layout_marginTop="10dp"
+        android:text="手机号快捷登录"
+        android:textColor="@color/meituan_other_words" />
+
+    <TextView
+        android:id="@+id/login_page_baidu_button"
+        android:layout_width="108px"
+        android:layout_height="107px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/login_page_baidu_button" />
+
+    <TextView
+        android:id="@+id/login_page_weibo_button"
+        android:layout_width="107px"
+        android:layout_height="109px"
+        android:layout_alignBottom="@id/login_page_baidu_button"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@id/login_page_baidu_button"
+        android:background="@drawable/login_page_weibo_button" />
+
+    <TextView
+        android:id="@+id/login_page_qq_button"
+        android:layout_width="108px"
+        android:layout_height="107px"
+        android:layout_alignBottom="@id/login_page_baidu_button"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/login_page_baidu_button"
+        android:background="@drawable/login_page_qq_button" />
+
+    <TextView
+        android:id="@+id/login_page_infor"
+        android:layout_width="658px"
+        android:layout_height="37px"
+        android:layout_above="@id/login_page_baidu_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/login_page_infor" />
+
+</RelativeLayout>

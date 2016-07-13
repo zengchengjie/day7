@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="720px"
+    android:layout_height="120px"
+    android:background="@drawable/player_view_background" >
+
+    <TextView
+        android:id="@+id/player_view_icon"
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:background="@drawable/player_view_fail_icon" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:layout_toRightOf="@id/player_view_icon" >
+
+        <TextView
+            android:id="@+id/player_view_music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="走着走着就散了"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/player_view_singer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_view_music_name"
+            android:layout_marginTop="10px"
+            android:text="庄心妍"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <com.fs.music.widget.MyButton
+        android:id="@+id/player_view_button_next"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20px" />
+
+    <com.fs.music.widget.PlayButton
+        android:id="@+id/player_view_button_play"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30px"
+        android:layout_toLeftOf="@id/player_view_button_next" />
+
+    <com.fs.music.widget.MyButton
+        android:id="@+id/player_view_button_last"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20px"
+        android:layout_toLeftOf="@id/player_view_button_play" />
+
+</RelativeLayout>

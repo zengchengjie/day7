@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="720px"
+        android:layout_height="94px"
+         android:background="@drawable/singer_page_background">
+
+
+        <TextView
+            android:id="@+id/main_page_title_layout_weixin"
+            android:layout_width="24px"
+            android:layout_height="40px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/singer_page_button_back" />
+        
+                <TextView
+            android:id="@+id/main_page_title_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="酷狗音乐" 
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            />
+                
+
+        <TextView
+            android:id="@+id/main_page_title_layout_add"
+            android:layout_width="39px"
+            android:layout_height="30px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/singer_page_button_set" />
+
+        <TextView
+            android:id="@+id/main_page_title_layout_find"
+            android:layout_width="43px"
+            android:layout_height="40px"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/main_page_title_layout_add"
+            android:background="@drawable/singer_page_button_search" />
+
+
+
+</RelativeLayout>

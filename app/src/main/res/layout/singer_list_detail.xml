@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/song_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="60dp" />
+    <ImageView
+        android:id="@+id/image_erji"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/song_list_name"
+        android:src="@mipmap/headsetg" />
+
+    <ImageView
+        android:id="@+id/image_go"
+        android:layout_width="15dp"
+        android:layout_height="26dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/arrow_toward_right" />
+</RelativeLayout>
